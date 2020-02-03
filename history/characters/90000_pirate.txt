@@ -957,6 +957,7 @@
 }
 
 # dynasty=60006
+#Caliph Scorpidsting, a lore character
 90101={
 	name=Yuslan
 	dynasty=60006
@@ -967,9 +968,22 @@
 	567.3.17={ birth=yes add_trait=creature_human }
 	605.1.1={
 		culture = wastewander
-		religion = neptulon_worship
+		# religion = neptulon_worship
 	}
 	608.9.4={ death=yes }
+}
+#Arik Scorpidsting, a lore character
+90102={
+	name=Arik
+	dynasty=60006
+	dna="clcganpdepo"
+	culture=pirate_culture religion=tidemother
+	martial=7 diplomacy=7 stewardship=6 intrigue=6 learning=5
+	add_trait=charismatic_negotiator
+	add_trait=just add_trait=gregarious add_trait=honest add_trait=humble add_trait=kind 
+	father=90101 #Yuslan
+	592.6.4={ birth=yes }
+	650.4.29={ death=yes }
 }
 
 #dynasty=60007 Not really lore dynasty, pirates of Tol Barad
@@ -1350,7 +1364,7 @@
 	dna="ebmddhdglhg"
 	culture=pirate_culture religion=tidemother
 	martial=4 diplomacy=4 stewardship=8 intrigue=8 learning=6
-	add_trait=midas_touched add_trait=kind add_trait=cruel add_trait=wroth add_trait=humble 
+	add_trait=midas_touched add_trait=kind add_trait=wroth add_trait=humble 
 	father=90133	#Gocelm
 	236.4.1={ birth=yes add_trait=creature_human }
 	296.7.6={ death=yes }
@@ -1950,4 +1964,99 @@
 	father=90190	#Balduin
 	641.4.12={ birth=yes add_trait=creature_human }
 	712.12.15={ death=yes }
+}
+
+#dynasty=60008 Kinda lore dynasty, rulers of Southbreak
+#Captain Dreadbeard
+90200={
+	name=Sinop
+	dynasty=60008
+	dna="kdiacakiilk"
+	culture=pirate_culture religion=tidemother
+	martial=7 diplomacy=6 stewardship=8 intrigue=6 learning=4
+	add_trait=tough_soldier
+	add_trait=erudite
+	570.6.15={ birth=yes add_trait=creature_human }
+	657.7.7={ death=yes }
+}
+90201={
+	name=Hrolfr
+	dynasty=60008
+	dna="kjfajakgilc"
+	culture=pirate_culture religion=tidemother
+	martial=4 diplomacy=7 stewardship=7 intrigue=7 learning=6
+	add_trait=grey_eminence add_trait=brave add_trait=patient add_trait=cynical add_trait=gluttonous 
+	father=90200	#Sinop
+	597.3.13={ birth=yes add_trait=creature_human }
+	682.2.14={ death=yes }
+}
+90202={
+	name=Chramnesind
+	dynasty=60008
+	dna="kdmakdklilk"
+	culture=pirate_culture religion=tidemother
+	martial=4 diplomacy=8 stewardship=7 intrigue=5 learning=8
+	add_trait=grey_eminence add_trait=gardener add_trait=patient add_trait=lustful add_trait=shy 
+	add_trait=paranoid add_trait=arbitrary add_trait=temperate 
+	father=90200	#Sinop
+	604.9.3={ birth=yes add_trait=creature_human }
+	698.1.1={ death=yes }
+}
+90203={
+	name=Clodio
+	dynasty=60008
+	dna="ljiacaciilk"
+	culture=pirate_culture religion=tidemother
+	martial=4 diplomacy=8 stewardship=4 intrigue=5 learning=7
+	add_trait=flamboyant_schemer add_trait=cruel add_trait=greedy add_trait=diligent add_trait=chaste 
+	add_trait=ambitious add_trait=depressed 
+	father=90200	#Sinop
+	609.5.15={ birth=yes add_trait=creature_human }
+	678.6.2={ death=yes }
+}
+90204={
+	name=Arcambald
+	dynasty=60008
+	dna="kpiacpkiodj"
+	culture=pirate_culture religion=tidemother
+	martial=5 diplomacy=4 stewardship=8 intrigue=5 learning=8
+	add_trait=charismatic_negotiator add_trait=charitable add_trait=diligent add_trait=ambitious add_trait=proud 
+	add_trait=kind 
+	father=90200	#Sinop
+	615.2.12={ birth=yes add_trait=creature_human }
+	684.4.9={ death=yes }
+}
+90205={
+	name=Avremar
+	dynasty=60008
+	dna="kjfajbkgilc"
+	culture=pirate_culture religion=tidemother
+	martial=6 diplomacy=4 stewardship=8 intrigue=6 learning=6
+	add_trait=skilled_tactician add_trait=patient add_trait=cynical add_trait=chaste add_trait=temperate 
+	father=90201	#Hrolfr
+	618.4.1={ birth=yes add_trait=creature_human }
+	700.2.22={ death=yes }
+}
+90206={
+	name=Raimbold
+	dynasty=60008
+	dna="mjocjlchgbf"
+	culture=pirate_culture religion=tidemother
+	martial=8 diplomacy=5 stewardship=6 intrigue=8 learning=6
+	add_trait=charismatic_negotiator add_trait=kind add_trait=greedy add_trait=brave add_trait=lustful 
+	add_trait=stressed 
+	father=90201	#Hrolfr
+	623.9.14={ birth=yes add_trait=creature_human }
+	684.12.17={ death=yes }
+}
+90207={
+	name=Marell
+	dynasty=60008
+	dna="kboajmndcmc"
+	culture=pirate_culture religion=tidemother
+	martial=4 diplomacy=6 stewardship=8 intrigue=6 learning=5
+	add_trait=charismatic_negotiator add_trait=slothful add_trait=paranoid 
+	father=90201	#Hrolfr
+	627.12.13={ birth=yes add_trait=creature_human }
+	723.6.19={ death=yes }
 }

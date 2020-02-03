@@ -17,7 +17,7 @@
 	575.6.18={
 		add_trait = class_warlock_7
 		effect={
-			leave_society = yes
+			leave_society_if_part_of_society_effect = yes
 			join_society_shadow_council_effect = yes
 			society_rank_up = 2
 		}
@@ -30,7 +30,7 @@
 		remove_trait = class_warlock_7
 		add_trait = class_shadow_priest_7
 		effect={
-			leave_society = yes
+			leave_society_if_part_of_society_effect = yes
 			join_society_twilights_hammer_cult_effect = yes
 			set_society_grandmaster = yes
 			add_society_currency_massive_effect = yes
@@ -819,7 +819,7 @@
 	disallow_random_traits = yes
 	550.10.18={ birth=yes add_trait=creature_ogre }
 	570.1.1={ add_trait=class_warrior_5 }
-	605.1.5={ death=yes }
+	620.1.5={ death=yes }
 }
 #dynasty 42008
 52315={
@@ -881,6 +881,7 @@
 }
 
 #dynasty 42010
+#Za'brox, a lore character
 52324={
 	name=Za'brox
 	dynasty=42010
@@ -897,6 +898,7 @@
 	654.2.11={ death=yes }
 }
 #dynasty 42011
+# Gor'marok the Ravager, a lore character
 52325={
 	name=Gor'marok
 	dynasty=42011
@@ -912,6 +914,7 @@
 	681.6.12={ death=yes }
 }
 #dynasty 42012
+#King Gordok, a lore character
 52326={
 	name=Ulrok
 	dynasty=42012

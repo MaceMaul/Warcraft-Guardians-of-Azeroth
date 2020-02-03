@@ -8995,6 +8995,8 @@
 	590.5.23={ birth=yes add_trait=creature_human }
 	636.11.4={ death=yes }
 }
+
+#dynasty=26021
 48926={
 	name=Rainald
 	dynasty=26021
@@ -9276,6 +9278,8 @@
 	562.10.11={ birth=yes add_trait=creature_human }
 	621.11.13={ death=yes }
 }
+
+#dynasty=26022
 48952={
 	name=Steven
 	dynasty=26022
@@ -13749,7 +13753,8 @@
 	630.9.2={ death=yes }
 }
 
-# dynasty=26114
+#dynasty=26114
+#Cyrus Crestfall, a lore character
 49410={
 	name=Cyrus
 	dynasty=26114
@@ -13764,6 +13769,7 @@
 	}
 	620.4.21={ death=yes }
 }
+#Rylai Crestfall, a lore character
 49420={
 	name=Rylai
 	dynasty=26114
